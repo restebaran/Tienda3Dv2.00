@@ -1,0 +1,9 @@
+.logo{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo img{
+    height: 150px;
+    width: auto;
+}

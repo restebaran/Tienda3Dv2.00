@@ -1,0 +1,161 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+button{
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #9B3324;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(160, 160, 160);
+}
+
+.mini_banner{
+    display: flex;
+    background-color: #9B3324;
+    height: 50px;
+    width: 100%x;
+    justify-content: center;
+    align-items: center;
+}
+.mini_banner p{
+    color: white;
+    text-align: center;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo img{
+    height: 125px;
+    width: auto;
+}
+.logo a{
+    text-decoration: none;
+    font-size:40px;
+    font-weight: bold;
+    color: black;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 20px;
+}
+.login img{
+    align-items: end;
+    width: 25px;
+    height: 25px;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+}
+
+.body2{
+    background-color: rgb(243, 243, 243);
+}
+.titulo{
+    text-align: center;
+    padding-top: 2px;
+}
+.body-center1 {
+    display: flex;
+    align-items: center; 
+}
+
+.body-center1 img{
+    flex-flow: row;
+    flex: 1; 
+    min-width: 20px;
+    height: 20em; 
+    padding: 30px;
+}
+.texto1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 20px;
+    margin-right: 30px;
+}
+.body-center1 .texto1{
+    flex: 1; 
+    height: 20em; 
+}
+.body-center2{
+    display: flex;
+    align-items: center; 
+}
+.body-center2 img{
+    flex-flow: row;
+    flex: 1; 
+    min-width: 20px;
+    height: 20em; 
+    padding: 30px;
+}
+.body-center2 .texto2{
+    flex: 1; 
+    height: 20em; 
+    padding-left: 40px;
+}
+
+.texto2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 0 0;
+    margin-left: 30px;
+}
+
+.pie_pagina{
+    margin: 30px;
+    margin-left: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.pie_pagina button{
+    width: 200px;
+    height: 50px;
+
+}
+
+.pie_pagina button a{
+    font-weight: bold;
+}
+.copyright{
+    display: flex;
+    font-weight: bold;
+    color: #9B3324;
+}
+.redes_sociales{
+    display: flex;
+    gap: 10px;
+    height: 45px;
+  }
+  a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

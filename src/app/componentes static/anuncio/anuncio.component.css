@@ -1,0 +1,27 @@
+.mini_banner{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #9B3324;
+    height: 60px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+.mini_banner p{
+    display: flex;
+    color: white;
+    text-align: center;
+    animation: mover-izquierda-derecha 8s infinite;
+
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
