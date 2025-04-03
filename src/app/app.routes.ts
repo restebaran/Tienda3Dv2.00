@@ -6,6 +6,11 @@ import { CarruselComponent } from './componentes static/carrusel/carrusel.compon
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
+import { ProductComponent } from './componentes/product/product.component';
+import { Impresion3dComponent } from './componentes/impresion3d/impresion3d.component';
+import { P1Component } from './productos/p1/p1.component';
+
+
 
 export const routes: Routes = [
     {path: 'navbar', component: NavbarComponent},
@@ -15,5 +20,8 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'login', component: LoginComponent},
     {path: 'registro', component: RegistroComponent},
+    {path: 'product', component: ProductComponent},
+    {path: 'impresion3d', component: Impresion3dComponent},
+    {path: 'p1', component: P1Component},
     {path: '', redirectTo:'/home', pathMatch: 'full'}
 ];

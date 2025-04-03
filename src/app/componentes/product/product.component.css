@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  button {
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #9b3324;
+    color: white;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: rgb(160, 160, 160);
+  }
+  
+  .mini_banner {
+    display: flex;
+    background-color: #9b3324;
+    height: 50px;
+    width: 100%x;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini_banner p {
+    color: white;
+    text-align: center;
+  }
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .logo img {
+    height: 125px;
+    width: auto;
+  }
+  .logo a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .login img {
+    align-items: end;
+    width: 25px;
+    height: 25px;
+  }
+  .login a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+  }
+  
+  .productos_fila1 {
+    background-color: rgb(236, 237, 237);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 40px 0 40px 0;
+  }
+  .productos_fila1 a{
+      align-self: flex-start;
+      color: black;
+      text-decoration: none;
+    }
+  .productos_fila1 h5 {
+    font-size: large;
+    font-weight: bold;
+    margin: 2px;
+  }
+  .productos_fila1 h6 {
+    font-size: large;
+    font-weight: bold;
+    margin: 2px;
+  }
+  
+  .productos_fila1 p {
+    font-size: large;
+    font-weight: bold;
+    margin: 2px;
+  }
+  
+  .producto1 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+  }
+  .producto2 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+  }
+  .producto3 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+  }
+  .producto4 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+  }
+  .producto5 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+  }
+  
+  hr {
+    margin: 0;
+  }
+  
+  .pie_pagina {
+    margin: 30px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pie_pagina button {
+    width: 200px;
+    height: 50px;
+  }
+  
+  .pie_pagina button a {
+    font-weight: bold;
+  }
+  .copyright {
+    display: flex;
+    font-weight: bold;
+    color: #9b3324;
+  }
+  .redes_sociales {
+    display: flex;
+    gap: 10px;
+    height: 45px;
+  }
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  

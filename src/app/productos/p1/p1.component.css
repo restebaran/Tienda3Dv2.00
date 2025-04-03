@@ -1,0 +1,85 @@
+  section {
+    background-color: #e3e2e2;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    width: 80em;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .columnaImagenes {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .columnaImagenes img {
+    width: 100%;
+    height: auto;
+  }
+  .contenedor_imagPequeñas img {
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+  }
+  .columnaTexto {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    width: 50%;
+    height: 650px;
+    margin: 30px;
+  }
+  .conenedorSeleccion {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 3px 3px 3px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .boton {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .boton button {
+    width: 200px;
+    height: 30px;
+  }
+  
+  hr {
+    margin: 0;
+  }
+  
+  .pie_pagina {
+    margin: 30px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pie_pagina button {
+    width: 200px;
+    height: 50px;
+  }
+  
+  .pie_pagina button a {
+    font-weight: bold;
+  }
+  .copyright {
+    display: flex;
+    font-weight: bold;
+    color: #9b3324;
+  }
+  .redes_sociales {
+    display: flex;
+    gap: 10px;
+    height: 45px;
+  }
+  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
