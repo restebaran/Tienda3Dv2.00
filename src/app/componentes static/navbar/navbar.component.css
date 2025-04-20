@@ -7,13 +7,19 @@
     height: 150px;
     width: auto;
 }
-.color{
-color: brown;
+.bg-brown{
+    border: 2px solid rgb(167,39,26); 
+    color:rgb(167,39,26);
 }
-.active{
-    color: black;
-    background-color: brown;
+.txt-brown{
+    color:rgb(167,39,26);
 }
-.btn-outline-primary-primary{
-    color: black;
+.activeLink{
+    color: white;
+    background-color: rgb(147, 39, 39);
 }
+.activeLinkHome{
+    background-color: rgb(147, 39, 39);
+    color: white;
+}
+
