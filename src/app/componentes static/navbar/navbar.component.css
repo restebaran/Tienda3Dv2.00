@@ -23,3 +23,11 @@
     color: white;
 }
 
+.btn-bd-primary {
+    --bs-btn-color:rgb(147, 39, 39);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: rgb(147, 39, 39);
+    --bs-btn-active-color: rgb(187, 190, 14);
+    --bs-btn-active-bg: rgb(191, 137, 21);
+    --bs-btn-active-border-color: black;
+  }

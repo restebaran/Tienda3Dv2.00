@@ -1,0 +1,6 @@
+.btn-bd-primary {
+    --bs-btn-color:white;
+    --bs-btn-bg:rgb(147, 39, 39);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: rgba(147, 39, 39, 0.451);
+  }

@@ -1,7 +1,6 @@
-.custom-color {
-    color: #A7271A;
-}
-.bg-brown{
-    border: 2px solid rgb(167,39,26); 
-    color:rgb(167,39,26);
-}
+.btn-bd-primary {
+    --bs-btn-color:white;
+    --bs-btn-bg:rgb(147, 39, 39);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: rgba(147, 39, 39, 0.451);
+  }
