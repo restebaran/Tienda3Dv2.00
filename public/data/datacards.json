@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "nombre": "DEMONIOS",
+            "precio": "Rabia y guerra, magia y engaños.",
+            "imagen": "/Imagenes/productos/cards/demonios.png",
+            "miniImagen": "/Imagenes/productos/cards/demoniosmini.png"
+        },
+        {
+            "nombre": "ORCOS",
+            "precio": "Brutales, salvajes y siempre buscando pelea.",
+            "imagen": "/Imagenes/productos/cards/orcos.png",
+            "miniImagen": "/Imagenes/productos/cards/orcosmini.png"
+        },
+        {
+            "nombre": "ENANOS",
+            "precio": "Orgullosos, tercos y maestros herreros.",
+            "imagen": "/Imagenes/productos/cards/enanos.png",
+            "miniImagen": "/Imagenes/productos/cards/enanosmini.png"
+        }
+    ]
+}

@@ -1,1 +1,0 @@
-Carpeta para la ubicacion de las imagenes

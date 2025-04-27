@@ -1,0 +1,14 @@
+<div class="container px-4 py-5" id="custom-cards">
+  <h1 class="pb-2 fw-bold border-bottom">Descubre las Ordas</h1>
+
+  <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+  @for (productos of producto.productos; track $index){
+    <div class="producto1">
+      <img src={{productos.imagen}} alt="">
+      <a routerLink ="#"><h5>{{productos.nombre}}</h5> </a>
+      <h6>{{productos.stock}}</h6>
+      <p>{{productos.precio}} €</p>
+    </div>
+  }
+  </div>
+</div>

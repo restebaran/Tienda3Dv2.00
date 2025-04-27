@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from './componentes static/navbar/navbar.component';
-import { FooterComponent } from './componentes static/footer/footer.component';
-import { AnuncioComponent } from './componentes static/anuncio/anuncio.component';
+import { NavbarComponent } from './componentes-dynamic/navbar/navbar.component';
+import { FooterComponent } from './componentes-dynamic/footer/footer.component';
+import { AnuncioComponent } from './componentes-dynamic/anuncio/anuncio.component';
 
 @Component({
   selector: 'app-root',
