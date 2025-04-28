@@ -1,0 +1,41 @@
+<div class="bg-body-secondary p-4 py-md-5">
+  <div class="container d-flex justify-content-between flex-column">
+    <div class="row align-items-md-stretch">
+      <h1 class="display-3 fw-bold text-color mb-3">{{ miniaturaONE?.nombre }}</h1>
+
+      <div class="col-md-6">
+        <div class="h-100 rounded-3 p-2 d-flex flex-column">
+          <div class="d-flex justify-content-center mb-3" style="width: 100%">
+            <img id="imagenPrincipal" class="w-100 img-fluid rounded zoomable" [src]="miniaturaONE?.imagen" alt="" />
+          </div>
+          <div id="miniaturas" class="d-flex justify-content-between" style="width: 100%">
+            <img class="miniatura" [src]="miniaturaONE?.miniImagen1" alt="" style="width: 32%; cursor: pointer"
+              (click)="cambiarImagen(miniaturaONE?.miniImagen1 ?? '')" />
+            <img class="miniatura" [src]="miniaturaONE?.miniImagen2" alt="" style="width: 32%; cursor: pointer"
+              (click)="cambiarImagen(miniaturaONE?.miniImagen2 ?? '')" />
+            <img class="miniatura" [src]="miniaturaONE?.miniImagen3" alt="" style="width: 32%; cursor: pointer"
+              (click)="cambiarImagen(miniaturaONE?.miniImagen3 ?? '')" />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="h-100 p-5 mb-0 text-bg rounded-3">
+          <p class="display-9">{{ miniaturaONE?.descripcion }}</p>
+          <h1 class="display-6 fw-bold">{{ miniaturaONE?.precio }}€</h1>
+          <p class="display-9 mb-0">IVA incluido</p>
+          <div class="d-flex p-5 mt-5 mb-0 justify-content-center">
+            <a class="btn btn-bd-color w-100" routerLink="/productos">Añadir al carrito</a>
+          </div>
+          <div class="d-flex justify-content-between w-100 mb-0">
+            <p class="display-9 mb-0">Disponibilidad {{ miniaturaONE?.stock }} unidades</p>
+            <p class="display-9 mb-0">Envio en 3 - 4 dias</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex p-5 justify-content-center align-items-center">
+      <a class="btn btn-bd-color w-10" routerLink="/productos">Volver a Productos</a>
+    </div>
+  </div>
+</div>

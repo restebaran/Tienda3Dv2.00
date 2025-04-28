@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Impresion3dComponent } from './impresion3d.component';
+import { MiniaturaComponent } from './miniatura.component';
 
-describe('Impresion3dComponent', () => {
-  let component: Impresion3dComponent;
-  let fixture: ComponentFixture<Impresion3dComponent>;
+describe('MiniaturaComponent', () => {
+  let component: MiniaturaComponent;
+  let fixture: ComponentFixture<MiniaturaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Impresion3dComponent]
+      imports: [MiniaturaComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Impresion3dComponent);
+    fixture = TestBed.createComponent(MiniaturaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

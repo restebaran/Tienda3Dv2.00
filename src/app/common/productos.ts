@@ -1,15 +1,15 @@
 export interface Productos {
-  productos: Producto[];
+  miniaturas: Miniatura[];
 }
 
-export interface Producto {
-  id: string;
+export interface Miniatura {
   nombre: string;
-  precio: number;
-  descripcion: string;
+  tipo: string;
+  precio: string;
+  descripcion: string[];
   imagen: string;
   miniImagen1: string;
   miniImagen2: string;
   miniImagen3: string;
-  stock: number;
+  stock: string;
 }

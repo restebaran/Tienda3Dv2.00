@@ -6,9 +6,9 @@ import { CarruselComponent } from './componentes-dynamic/carrusel/carrusel.compo
 import { HomeComponent } from './componentes-pages/home/home.component';
 import { LoginComponent } from './componentes-pages/login/login.component';
 import { RegistroComponent } from './componentes-pages/registro/registro.component';
-import { Impresion3dComponent } from './componentes-pages/impresion3d/impresion3d.component';
+import { ProductosComponent } from './componentes-pages/productos/productos.component';
+import { MiniaturaComponent } from './componentes-pages/miniatura/miniatura.component';
 import { PageNotFoundComponent } from './componentes-pages/page-not-found/page-not-found.component';
-import { ProductComponent } from './componentes-pages/productos/productos.component';
 
 
 
@@ -20,8 +20,9 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'login', component: LoginComponent},
     {path: 'registro', component: RegistroComponent},
-    {path: 'productos', component: ProductComponent},
-    {path: 'impresion3d', component: Impresion3dComponent},
-    {path: 'page-not-found', component: PageNotFoundComponent},
+    {path: 'productos', component: ProductosComponent},
+    {path: 'miniaturas', component: MiniaturaComponent},
+    {path: 'miniatura/:nombre', component: MiniaturaComponent},
+    {path: '**', component: PageNotFoundComponent},
     {path: '', redirectTo:'/home', pathMatch: 'full'}
 ];

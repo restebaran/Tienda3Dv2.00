@@ -1,14 +1,28 @@
-<div class="container px-4 py-5" id="custom-cards">
-  <h1 class="pb-2 fw-bold border-bottom">Descubre las Ordas</h1>
+<div class="bg-body-secondary p-4 py-md-5">
+  <div class="container d-flex flex-column">
+    <h2 class="display-2 text-center text-color fw-bold mb-0">LAS HORDAS</h2>
+    
 
-  <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
-  @for (productos of producto.productos; track $index){
-    <div class="producto1">
-      <img src={{productos.imagen}} alt="">
-      <a routerLink ="#"><h5>{{productos.nombre}}</h5> </a>
-      <h6>{{productos.stock}}</h6>
-      <p>{{productos.precio}} €</p>
+    <hr>
+    <p class="display-8 fw-bold mt-4">{{miniaturaNueva.miniaturas.length}} Productos</p>
+
+    <div class=" container d-flex flex-row flex-wrap justify-content-between">
+
+      @for (miniatura of miniaturaNueva.miniaturas; track $index) {
+      <div class="card m-3 text-bg" style="width: 15rem;">
+        <img src="{{miniatura.imagen}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{miniatura.nombre}}</h5>
+          <div class="justify-content-between d-flex">
+          <p class="card-text">{{miniatura.tipo}}</p>
+          <p class="card-text fw-bold">{{miniatura.precio}} €</p>
+          </div>
+          <div class="justify-content-center align-items-center d-flex">
+          <a [routerLink]="['/miniatura', miniatura.nombre]" class="btn btn-bd-color w-100">Ver</a>
+        </div>
+        </div>
+      </div>
+      }
     </div>
-  }
   </div>
 </div>

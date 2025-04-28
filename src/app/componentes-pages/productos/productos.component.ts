@@ -1,38 +1,37 @@
+import { RouterLink, RouterModule } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
-import { Productos } from '../../common/productos';
+import { Productos } from '../../common/Productos';
 import { DataproductosService } from '../../servicios/dataproductos.service';
 
 @Component({
-  selector: 'app-product',
-  imports: [RouterLink],
+  selector: 'app-productos',
+  imports: [RouterModule, RouterLink],
   templateUrl: './productos.component.html',
   styleUrl: './productos.component.css'
 })
-export class ProductComponent implements OnInit {
-  producto!: Productos;
-
-  constructor(private dataservice: DataproductosService) {}
+export class ProductosComponent implements OnInit {
+  miniaturaNueva! : Productos;
+  constructor( private dataservice: DataproductosService){}
 
   ngOnInit(): void {
-    this.loadProductos();
+    this.loadproductos();
   }
 
-  loadProductos(){
-    this.dataservice.getProductos().subscribe(
+  loadproductos() {
+    this.dataservice.getMiniatura().subscribe(
       {
         next: (data)=>{
+          this.miniaturaNueva = data;
           console.log(data);
-          this.producto = data;
         },
-        error: (err)=>{
-          console.error(err);
+        error: (error)=>{
+          console.log(error);
         },
         complete: ()=>{
-          console.log("Carga completada");
+          console.log('complete');
         }
       }
     )
+
   }
-  
 }
